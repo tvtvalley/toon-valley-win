@@ -1,0 +1,13 @@
+# runtime logs and per-machine state
+*.log
+errorCode
+*.bak
+Launcher/resources/app.asar.orig
+.users
+Launcher/
+Launcher.exe
+uninstall.exe
+.patcher/
+useropt.json
+settings.ini
+loading_counts.json
