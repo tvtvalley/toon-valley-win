@@ -2,6 +2,8 @@
 *.log
 errorCode
 *.bak
+# our runtime: built locally, shipped as one blob (runtime/python313.zip)
+runtime/
 Launcher/resources/app.asar.orig
 .users
 Launcher/
@@ -11,3 +13,6 @@ uninstall.exe
 useropt.json
 settings.ini
 loading_counts.json
+
+# local dev config (points at 127.0.0.1), not part of the client
+default.json
