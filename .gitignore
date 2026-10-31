@@ -2,8 +2,10 @@
 *.log
 errorCode
 *.bak
-# our runtime: built locally, shipped as one blob (runtime/python313.zip)
-runtime/
+# our runtime: the stdlib blob is the one file the launcher must ship, the
+# rest is built locally
+runtime/*
+!runtime/python313.zip
 Launcher/resources/app.asar.orig
 .users
 Launcher/
