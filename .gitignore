@@ -6,6 +6,7 @@ errorCode
 # rest is built locally
 runtime/*
 !runtime/python313.zip
+!runtime/pytz/
 Launcher/resources/app.asar.orig
 .users
 Launcher/
